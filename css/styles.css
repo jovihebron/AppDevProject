@@ -1,0 +1,234 @@
+*{
+    padding:0%;
+    margin:0%;
+    width:100%;
+}
+@font-face{
+    src: url(../Font/Montserrat-Regular.ttf);
+    font-family: "Montserrat";
+}
+@font-face{
+    src: url(../Font/Sacramento-Regular.ttf);
+    font-family: "Sacramento";
+}
+.header{
+    background:url(../img/arnaud-weyts-6zoXMu4BmpM-unsplash.jpg);
+    
+
+}
+.picture{
+    width:200px;
+    height: 200px;
+    border-radius: 100%;
+    top: 50px;
+    left: 42%;
+    position: relative;
+}
+.mountain{
+    width:40%;
+    position: relative;
+    left: 30%;
+    
+
+}
+.hiker{
+    width:200px;
+    position:absolute;
+    left:50%;
+    top:450px;
+    
+
+}
+.cloud1{
+    width:150px;
+    position: relative;
+    top:30px;
+    left: 70%;
+    animation: move 10s ease-out infinite;
+}
+.cloud4{
+    width:150px;
+    position: relative;
+    top:30px;
+    left:20%;
+    animation: move 10s ease-out infinite;
+}
+.cloud2{
+    width:150px;
+    position: relative;
+    top:30px;
+    left:30%;
+    animation: move 10s ease-in infinite;
+}
+.cloud3{
+    width:150px;
+    position: relative;
+    top:30px;
+    left:80%;
+    animation: move 10s ease-in infinite;
+}
+.airplane{
+    width:150px;
+    position: relative;
+    top:40px;
+    left:30%;
+    animation: move 10s ease-out infinite;
+}
+
+@keyframes move{
+    0%{
+    opacity: 0%;
+    transform: translateX(-15rem);
+    }
+    100%{
+        opacity: 1rem;
+        transform: translateX(0);
+    }
+    
+}
+.title{
+    color:white;
+    font-family: "Sacramento";
+    font-size: 6rem;
+    text-shadow: 2rem;
+    text-align: center;
+
+}
+.sub{
+    font-family: "Monserrat";
+    font-size:2rem;
+    color: goldenrod;
+    text-align: center;
+
+}
+.hello{
+    position: relative;
+    font-size: 50px;
+    top: 73px;
+    left:45%;
+    color: black;
+}
+p{
+    position: relative;
+    top: 83px;
+    left: 35%;
+    font-size: 25px;
+    color:black;
+}
+.skills{
+    position: relative;
+    top: 180px;
+    font-size: 40px;
+    left:45%;
+}
+.skill{
+    position: relative;
+    top:190px;
+    font-size:20px;
+    left:47%;
+    
+}
+.browser{
+    position: relative;
+    width: 150px;
+    left:4%;
+    top:11rem;
+
+}
+.web{
+    position: relative;
+    font-size: 25px;
+    top:3.5rem;
+    left:17%;
+
+}
+.pweb{
+    position: relative;;
+    font-size: 20px;
+    font-family: "Monserrat";
+    left: 17%;
+    top:3.8rem;
+}
+.ani{
+    position: relative;
+    font-size: 25px;
+    top:5.1rem;
+    left:72%;
+}
+.picanima{
+    position: relative;
+    width:180px;
+    left:82%;
+    top:98%;
+}
+.anima{
+    position: relative;
+    font-size: 20px;
+    font-family: "Monserrat";
+    left:35%;
+    top:5.1rem;
+}
+.get{
+    position: relative;
+    top: 400px;
+    font-size: 40px;
+    left:40%;
+}
+.let{
+    position: relative;
+    top:430px;
+    font-size: 20px;
+    left:36%;
+}
+.know{
+    position: relative;
+    top:470px;
+    font-size: 20px;
+    left:22%;
+
+}
+.call{
+    position: relative;
+    left:40%;
+    top:450px;
+    font-size: 20px;
+    
+}
+button{
+    position: relative;
+    top:550px;
+    left:43%;
+    width:170px;
+    height: 50px;
+    background-color:rgb(39, 47, 158);
+    color: beige;
+    border-radius: 10px;
+    font-size: 30px;
+
+}
+.main-nav{
+    position: relative;
+    left: 25%;
+}
+.nav-item{
+    position: relative;
+    margin-left: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color:darkblue;
+    left: 12%;
+    
+
+}
+.footer{
+    background: url(../img/arnaud-weyts-6zoXMu4BmpM-unsplash.jpg);
+    position:relative;
+    top:590px;
+    height:80px;
+}
+.back{
+    background:url(../img/arnaud-weyts-6zoXMu4BmpM-unsplash.jpg);
+}
+body{
+    background: url(../img/bkg-blu.jpg);
+}
